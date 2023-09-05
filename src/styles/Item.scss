@@ -1,0 +1,49 @@
+.item {
+  width: 100%;
+  display: flex;
+  padding: 4rem;
+
+  &__text {
+    max-width: 700px;
+    width: 50%;
+    padding-right: 4rem;
+
+    &--left {
+      margin-left: auto;
+    }
+    &--right {
+      margin-right: auto;
+    }
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    > span {
+      padding: 2px 5px;
+      font-size: 18px;
+      position: relative;
+      margin-right: 1rem;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 30px;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+        background-color: #5e3db3;
+      }
+    }
+    > h2 {
+      color: #c2c2c2;
+      font-size: 36px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+.space {
+  min-width: 50%;
+}
