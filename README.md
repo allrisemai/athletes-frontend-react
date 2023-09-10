@@ -23,20 +23,20 @@ Before you begin, ensure you have met the following requirements:
 
 2. Navigate to the project directory:
 
-   ```cd athletes-frontend-react
-
+   ```bash
+   cd athletes-frontend-react
    ```
 
 3. Install project dependencies:
 
-   ```npm install
-
+   ```bash
+   npm install
    ```
 
 4. Start the development server:
 
-   ```npm start
-
+   ```bash
+   npm start
    ```
 
 5. Open your web browser and visit http://localhost:3000 to view the application.
