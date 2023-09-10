@@ -66,6 +66,16 @@
           width: 30px;
         }
       }
+      &.athlete-3 {
+        &::after {
+          background-color: #fff !important;
+        }
+      }
+      &.player-3 {
+        &::after {
+          background-color: #fff !important;
+        }
+      }
     }
     > h2 {
       color: #c2c2c2;

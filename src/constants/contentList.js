@@ -1,4 +1,4 @@
-export const athletList = [
+export const athleteList = [
   {
     id: 1,
     title: "Connection",
@@ -21,7 +21,7 @@ export const athletList = [
     description:
       "Resources and tools for you to get better as a student Athelte. Access to training classes, tutor sessions, etc.",
     backgroundColor: "#5e3db3",
-    textColor: "#ffffff",
+    textColor: "#000000",
   },
 ];
 export const playerList = [
@@ -47,5 +47,6 @@ export const playerList = [
     description: "Save your time, recruit proper athlets for your team.",
     backgroundColor: "#090C35",
     textColor: "#ffffff",
+    titleTextColor: "#5e3db3",
   },
 ];
