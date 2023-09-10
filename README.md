@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://gitlab.com/allrisemai/althets-frontend-react.git
+   git clone https://github.com/allrisemai/athletes-frontend-react
    ```
 
 2. Navigate to the project directory:
